@@ -11,13 +11,15 @@ h1{
 .contents{
     max-width: 600px;
     margin: 200px auto 100px;
+    letter-spacing: 0.2em;
+    line-height: 2;
+    text-align: justify;
+    font-feature-settings: "palt";
 
 }
 
-.palt{
-    font-feature-settings: "palt";
-    letter-spacing: 0.2em;
-    line-height: 2;
+.contents:not(:first-child){
+    margin-top: 100px;
 }
 
 .palt p{
@@ -25,10 +27,8 @@ h1{
 }
 
 .nopalt{
-    margin-top: 100px;
+    font-feature-settings: normal;
     letter-spacing: 0.1em;
-    line-height: 2;
-    text-align: justify;
 }
 
 .nopalt h1{
@@ -36,19 +36,9 @@ h1{
 }
 
 .serif{
-    margin-top: 100px;
     font-family:"游明朝" "YuMincho Medium", YuMincho serif;
-    font-feature-settings: "palt";
-    letter-spacing: 0.2em;
-    line-height: 2;
-    text-align: justify;
 }
 
 .google{
-    margin-top: 100px;
     font-family: 'BIZ UDPGothic', sans-serif;
-    font-feature-settings: "palt";
-    letter-spacing: 0.2em;
-    line-height: 2;
-    text-align: justify;
 }
