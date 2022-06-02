@@ -1,11 +1,6 @@
 body{
     font-family: "YuGothic Medium", sans-serif;
     font-size: 18px;
-    color: #a62929;
-}
-
-h1{
-    color: #000;
 }
 
 .contents{
@@ -15,7 +10,10 @@ h1{
     line-height: 2;
     text-align: justify;
     font-feature-settings: "palt";
+}
 
+.contents p{
+    color: #a62929;
 }
 
 .contents:not(:first-child){
