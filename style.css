@@ -1,0 +1,54 @@
+body{
+    font-family: "YuGothic Medium", sans-serif;
+    font-size: 18px;
+    color: #a62929;
+}
+
+h1{
+    color: #000;
+}
+
+.contents{
+    max-width: 600px;
+    margin: 200px auto 100px;
+
+}
+
+.palt{
+    font-feature-settings: "palt";
+    letter-spacing: 0.2em;
+    line-height: 2;
+}
+
+.palt p{
+    color: blue;
+}
+
+.nopalt{
+    margin-top: 100px;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    text-align: justify;
+}
+
+.nopalt h1{
+    color: #cccccc;
+}
+
+.serif{
+    margin-top: 100px;
+    font-family:"游明朝" "YuMincho Medium", YuMincho serif;
+    font-feature-settings: "palt";
+    letter-spacing: 0.2em;
+    line-height: 2;
+    text-align: justify;
+}
+
+.google{
+    margin-top: 100px;
+    font-family: 'BIZ UDPGothic', sans-serif;
+    font-feature-settings: "palt";
+    letter-spacing: 0.2em;
+    line-height: 2;
+    text-align: justify;
+}
