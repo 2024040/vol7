@@ -8,16 +8,17 @@ body{
     margin: 200px auto 100px;
     letter-spacing: 0.2em;
     line-height: 2;
+    color: #a62929;
     text-align: justify;
     font-feature-settings: "palt";
 }
 
-.contents p{
-    color: #a62929;
-}
-
 .contents:not(:first-child){
     margin-top: 100px;
+}
+
+.palt h1{
+    color: #000;
 }
 
 .palt p{
